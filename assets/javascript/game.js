@@ -35,9 +35,11 @@ var reset = function () {
 
 // User Input
 
-document.onkeyup = function (event) {
+document.onkeypress = function (event) {
 
     var myGuess = event.key;
+
+
 
     if (myGuess == random) {
         winCount++;
